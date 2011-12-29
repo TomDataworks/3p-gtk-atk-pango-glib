@@ -1,0 +1,17 @@
+syntax: glob
+*~
+*.diff
+*.patch
+*.rej
+stage/*
+stage32/*
+stage64/*
+*.lo
+*.o
+*.Plo
+*.a
+*.la
+*.so*
+*.pc
+*.tar.gz
+*.tar.bz2
