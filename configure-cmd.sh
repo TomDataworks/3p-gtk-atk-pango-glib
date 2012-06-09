@@ -1,11 +1,5 @@
 #!/bin/bash
 
-GLIB_VERSION="2.24.2"
-GLIB_SOURCE_DIR="glib-$GLIB_VERSION"
-FONTCONFIG_VERSION="2.8.0"
-FONTCONFIG_SOURCE_DIR="fontconfig-$FONTCONFIG_VERSION"
-FREETYPE_VERSION="2.3.11"
-FREETYPE_SOURCE_DIR="freetype-$FREETYPE_VERSION"
 ATK_VERSION="1.30.0"
 ATK_SOURCE_DIR="atk-$ATK_VERSION"
 PIXMAN_VERSION="0.17.14"
@@ -16,33 +10,11 @@ PANGO_VERSION="1.28.4"
 PANGO_SOURCE_DIR="pango-$PANGO_VERSION"
 GTK_VERSION="2.20.1"
 GTK_SOURCE_DIR="gtk+-$GTK_VERSION"
+
 TOP="$(dirname "$0")"
 pushd $TOP
 echo "checking for all source dirs"
 
-if [ -d "$GLIB_SOURCE_DIR" ]; then
-   echo "$GLIB_SOURCE_DIR is present"
-else
-   echo "$GLIB_SOURCE_DIR not present, downloading"
-   wget http://ftp.gnome.org/pub/GNOME/sources/glib/2.24/glib-2.24.2.tar.gz
-   tar -xzf glib-2.24.2.tar.gz
-fi
-
-if [ -d "$FONTCONFIG_SOURCE_DIR" ]; then
-   echo "$FONTCONFIG_SOURCE_DIR is present"
-else
-   echo "$FONTCONFIG_SOURCE_DIR not present, downloading"
-   wget http://www.freedesktop.org/software/fontconfig/release/fontconfig-2.8.0.tar.gz
-   tar -xzf fontconfig-2.8.0.tar.gz
-fi
-
-if [ -d "$FREETYPE_SOURCE_DIR" ]; then
-   echo "$FREETYPE_SOURCE_DIR is present"
-else
-   echo "$FREETYPE_SOURCE_DIR not present, downloading"
-   wget http://download.savannah.gnu.org/releases/freetype/freetype-2.3.11.tar.gz
-   tar -xzf freetype-2.3.11.tar.gz
-fi
 
 if [ -d "$ATK_SOURCE_DIR" ]; then
    echo "$ATK_SOURCE_DIR is present"
