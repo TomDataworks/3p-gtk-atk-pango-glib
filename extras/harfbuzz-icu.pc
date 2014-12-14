@@ -1,0 +1,13 @@
+prefix=${AUTOBUILD_PACKAGES_DIR}
+exec_prefix=
+libdir=${prefix}/lib/release
+includedir=${prefix}/include
+
+Name: harfbuzz
+Description: HarfBuzz text shaping library ICU integration
+Version: 0.9.20
+
+Requires: harfbuzz
+Requires.private: icu-uc
+Libs: -L${libdir} -lharfbuzz-icu
+Cflags: -I${includedir}/harfbuzz

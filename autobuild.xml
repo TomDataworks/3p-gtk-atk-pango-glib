@@ -3,6 +3,34 @@
 <map>
     <key>installables</key>
     <map>
+      <key>expat</key>
+      <map>
+        <key>description</key>
+        <string>Expat is an XML parser library written in C</string>
+        <key>license</key>
+        <string>expat</string>
+        <key>license_file</key>
+        <string>LICENSES/expat.txt</string>
+        <key>name</key>
+        <string>expat</string>
+        <key>platforms</key>
+        <map>
+          <key>linux64</key>
+          <map>
+            <key>archive</key>
+            <map>
+              <key>hash</key>
+              <string>d92b89d9c8eb9c57346f9896712c1e27</string>
+              <key>url</key>
+              <string>http://depot.alchemyviewer.org/pub/linux/lib/expat-2.1.0-linux64-20141210.tar.bz2</string>
+            </map>
+            <key>name</key>
+            <string>linux64</string>
+          </map>
+        </map>
+        <key>version</key>
+        <string>2.1.0</string>
+      </map>
       <key>fontconfig</key>
       <map>
         <key>license</key>
@@ -13,26 +41,14 @@
         <string>fontconfig</string>
         <key>platforms</key>
         <map>
-          <key>linux</key>
-          <map>
-            <key>archive</key>
-            <map>
-              <key>hash</key>
-              <string>d1edeca35a36414d77d51941b3e25c86</string>
-              <key>url</key>
-              <string>https://bitbucket.org/ArminW/3p-fontconfig/downloads/fontconfig-2.8.0-linux-i686-20120531.tar.bz2</string>
-            </map>
-            <key>name</key>
-            <string>linux</string>
-          </map>
           <key>linux64</key>
           <map>
             <key>archive</key>
             <map>
               <key>hash</key>
-              <string>b0d59bb8f266fa382286b85682c295c7</string>
+              <string>138a6c4dbe0f9fa3042ee3726741ca31</string>
               <key>url</key>
-              <string>https://bitbucket.org/ArminW/3p-fontconfig/downloads/fontconfig-2.8.0-linux-x86_64-20120531.tar.bz2</string>
+              <string>http://depot.alchemyviewer.org/pub/linux/lib/fontconfig-2.11.0-linux64-20141211.tar.bz2</string>
             </map>
             <key>name</key>
             <string>linux64</string>
@@ -49,93 +65,81 @@
         <string>freetype</string>
         <key>platforms</key>
         <map>
-          <key>darwin</key>
-          <map>
-            <key>archive</key>
-            <map>
-              <key>hash</key>
-              <string>c0eacb6348e032fbc69cfdc4bd215ee4</string>
-              <key>url</key>
-              <string>http://s3.amazonaws.com/viewer-source-downloads/install_pkgs/freetype-2.4.4-darwin-20110307.tar.bz2</string>
-            </map>
-            <key>name</key>
-            <string>darwin</string>
-          </map>
-          <key>linux</key>
-          <map>
-            <key>archive</key>
-            <map>
-              <key>hash</key>
-              <string>f34a0eaa9fb10ae3c2acd162d61ecbfc</string>
-              <key>url</key>
-              <string>https://bitbucket.org/ArminW/3p-freetype/downloads/freetype-2.3.11-linux-i686-20120531.tar.bz2</string>
-            </map>
-            <key>name</key>
-            <string>linux</string>
-          </map>
           <key>linux64</key>
           <map>
             <key>archive</key>
             <map>
               <key>hash</key>
-              <string>1e940dca96fab1b2024c2a4216812b02</string>
+              <string>b20abbb02c6d3ee40678858445cbf07c</string>
               <key>url</key>
-              <string>https://bitbucket.org/ArminW/3p-freetype/downloads/freetype-2.3.11-linux-x86_64-20120531.tar.bz2</string>
+              <string>http://depot.alchemyviewer.org/pub/linux/lib/freetype-2.5.3-linux64-20141210.tar.bz2</string>
             </map>
             <key>name</key>
             <string>linux64</string>
           </map>
-          <key>windows</key>
-          <map>
-            <key>archive</key>
-            <map>
-              <key>hash</key>
-              <string>271349827b939406162ce42e42cd18e0</string>
-              <key>url</key>
-              <string>http://s3.amazonaws.com/viewer-source-downloads/install_pkgs/freetype-2.4.4-windows-20110218.tar.bz2</string>
-            </map>
-            <key>name</key>
-            <string>windows</string>
-          </map>
         </map>
       </map>
-      <key>glib</key>
+      <key>icu4c</key>
       <map>
+        <key>copyright</key>
+        <string>Copyright (c) 1995-2011 International Business Machines Corporation and others &lt;http://source.icu-project.org&gt;</string>
+        <key>description</key>
+        <string>ICU is a mature, widely used set of C/C++ and Java libraries providing Unicode and Globalization support for software applications. ICU is widely portable and gives applications the same results on all platforms and between C/C++ and Java software.</string>
         <key>license</key>
-        <string>lgpl</string>
+        <string>ICU, permissive non-copyleft free software license</string>
         <key>license_file</key>
-        <string>LICENSES/glib.txt</string>
+        <string>LICENSES/icu.txt</string>
         <key>name</key>
-        <string>glib</string>
+        <string>icu4c</string>
         <key>platforms</key>
         <map>
-          <key>linux</key>
-          <map>
-            <key>archive</key>
-            <map>
-              <key>hash</key>
-              <string>b5fd84088086b055ad942a1d581d96f3</string>
-              <key>url</key>
-              <string>https://bitbucket.org/ArminW/3p-glib/downloads/glib-2.25.17-linux-i686-20120422.tar.bz2</string>
-            </map>
-            <key>name</key>
-            <string>linux</string>
-          </map>
           <key>linux64</key>
           <map>
             <key>archive</key>
             <map>
               <key>hash</key>
-              <string>ce1c1184e0f421f62939dc556e05bab9</string>
+              <string>2ac556e0b6a66f784a916b2992d625e5</string>
               <key>url</key>
-              <string>https://bitbucket.org/ArminW/3p-glib/downloads/glib-2.25.17-linux-x86_64-20120422.tar.bz2</string>
+              <string>http://depot.alchemyviewer.org/pub/linux/lib/icu4c-54.1-linux64-20141209.tar.bz2</string>
             </map>
             <key>name</key>
             <string>linux64</string>
           </map>
         </map>
+        <key>version</key>
+        <string>54.1</string>
       </map>
-      <key>libxml</key>
+      <key>libpng</key>
+      <map>
+        <key>copyright</key>
+        <string>Copyright (c) 2004, 2006-2013 Glenn Randers-Pehrson</string>
+        <key>description</key>
+        <string>PNG Reference library</string>
+        <key>license</key>
+        <string>libpng</string>
+        <key>license_file</key>
+        <string>LICENSES/libpng.txt</string>
+        <key>name</key>
+        <string>libpng</string>
+        <key>platforms</key>
+        <map>
+          <key>linux64</key>
+          <map>
+            <key>archive</key>
+            <map>
+              <key>hash</key>
+              <string>3d977b7ae82b72da5eb315ea01a415e2</string>
+              <key>url</key>
+              <string>http://depot.alchemyviewer.org/pub/linux/lib/libpng-1.6.13-linux64-20141213.tar.bz2</string>
+            </map>
+            <key>name</key>
+            <string>linux64</string>
+          </map>
+        </map>
+        <key>version</key>
+        <string>1.6.13</string>
+      </map>
+      <key>libxml2</key>
       <map>
         <key>license</key>
         <string>mit</string>
@@ -145,26 +149,14 @@
         <string>libxml</string>
         <key>platforms</key>
         <map>
-          <key>linux</key>
-          <map>
-            <key>archive</key>
-            <map>
-              <key>hash</key>
-              <string>3795e974bc59ee24672c827d0afedb59</string>
-              <key>url</key>
-              <string>https://bitbucket.org/ArminW/3p-libxml/downloads/libxml2-2.7.8-linux-i686-20120420.tar.bz2</string>
-            </map>
-            <key>name</key>
-            <string>linux</string>
-          </map>
           <key>linux64</key>
           <map>
             <key>archive</key>
             <map>
               <key>hash</key>
-              <string>139136c6b878333072cff5426a268985</string>
+              <string>b3f8ec9c4cb67cea292d035febd34e41</string>
               <key>url</key>
-              <string>https://bitbucket.org/ArminW/3p-libxml/downloads/libxml2-2.7.8-linux-x86_64-20120420.tar.bz2</string>
+              <string>http://depot.alchemyviewer.org/pub/linux/lib/libxml2-2.9.2-linux64-20141210.tar.bz2</string>
             </map>
             <key>name</key>
             <string>linux64</string>
@@ -181,53 +173,17 @@
         <string>zlib</string>
         <key>platforms</key>
         <map>
-          <key>darwin</key>
-          <map>
-            <key>archive</key>
-            <map>
-              <key>hash</key>
-              <string>49b8de20f3bb43537f51311894a72de1</string>
-              <key>url</key>
-              <string>http://automated-builds-secondlife-com.s3.amazonaws.com/hg/repo/3p-zlib/rev/220983/arch/Darwin/installer/zlib-1.2.5-darwin-20110211.tar.bz2</string>
-            </map>
-            <key>name</key>
-            <string>darwin</string>
-          </map>
-          <key>linux</key>
-          <map>
-            <key>archive</key>
-            <map>
-              <key>hash</key>
-              <string>3768e55bf51eba512ad7217173e30bc6</string>
-              <key>url</key>
-              <string>https://bitbucket.org/ArminW/3p-zlib/downloads/zlib-1.2.6-linux-i686-20120419.tar.bz2</string>
-            </map>
-            <key>name</key>
-            <string>linux</string>
-          </map>
           <key>linux64</key>
           <map>
             <key>archive</key>
             <map>
               <key>hash</key>
-              <string>3e872c9f7501c0b7639e6835f2cf5575</string>
+              <string>23967544a78df78fcf3a69a30fee33a8</string>
               <key>url</key>
-              <string>https://bitbucket.org/ArminW/3p-zlib/downloads/zlib-1.2.6-linux-x86_64-20120419.tar.bz2</string>
+              <string>http://depot.alchemyviewer.org/pub/linux/lib/zlib-1.2.8-linux64-20141209.tar.bz2</string>
             </map>
             <key>name</key>
             <string>linux64</string>
-          </map>
-          <key>windows</key>
-          <map>
-            <key>archive</key>
-            <map>
-              <key>hash</key>
-              <string>5852192646681817fc3c3a8c95e91c1e</string>
-              <key>url</key>
-              <string>http://automated-builds-secondlife-com.s3.amazonaws.com/hg/repo/3p-zlib/rev/220983/arch/CYGWIN/installer/zlib-1.2.5-windows-20110211.tar.bz2</string>
-            </map>
-            <key>name</key>
-            <string>windows</string>
           </map>
         </map>
       </map>
@@ -235,13 +191,13 @@
     <key>package_description</key>
     <map>
       <key>description</key>
-      <string>gtk-etc</string>
+      <string>gtk-atk-pango-glib</string>
       <key>license</key>
       <string>lgpl</string>
       <key>license_file</key>
-      <string>LICENSES/gtk-etc.txt</string>
+      <string>LICENSES/gtk-atk-pango-glib.txt</string>
       <key>name</key>
-      <string>gtk-etc</string>
+      <string>gtk-atk-pango-glib</string>
       <key>platforms</key>
       <map>
         <key>common</key>
@@ -277,40 +233,14 @@
           <key>manifest</key>
           <array>
             <string>LICENSES/</string>
-            <string>autobuild-bits/</string>
           </array>
           <key>name</key>
           <string>common</string>
         </map>
-        <key>linux</key>
-        <map>
-          <key>build_directory</key>
-          <string>stage-linux-i686</string>
-          <key>configurations</key>
-          <map>
-            <key>Release</key>
-            <map>
-              <key>build</key>
-              <map>
-              </map>
-              <key>default</key>
-              <string>True</string>
-              <key>name</key>
-              <string>Release</string>
-            </map>
-          </map>
-          <key>manifest</key>
-          <array>
-            <string>lib/release/*.so*</string>
-            <string>include/</string>
-          </array>
-          <key>name</key>
-          <string>linux</string>
-        </map>
         <key>linux64</key>
         <map>
           <key>build_directory</key>
-          <string>stage-linux-x86_64</string>
+          <string>stage</string>
           <key>configurations</key>
           <map>
             <key>Release</key>
