@@ -9,6 +9,7 @@ stage="$(pwd)"
 cd "$(dirname "$0")"
 TOP="$(pwd)"
 
+COLLECTION_VERSION="0.0.2"
 PROJECT="gtk-atk-pango-glib"
 GLIB_VERSION="2.36.4"
 GLIB_SOURCE_DIR="glib-$GLIB_VERSION"
@@ -27,6 +28,7 @@ GDK_PIXBUF_SOURCE_DIR="gdk-pixbuf-$GDK_PIXBUF_VERSION"
 GTK_VERSION="2.24.22"
 GTK_SOURCE_DIR="gtk+-$GTK_VERSION"
 
+
 if [ -z "$AUTOBUILD" ] ; then 
     fail
 fi
@@ -34,6 +36,8 @@ fi
 if [ "$OSTYPE" = "cygwin" ] ; then
     export AUTOBUILD="$(cygpath -u $AUTOBUILD)"
 fi
+
+echo "${COLLECTION_VERSION}" > "${stage}/VERSION.txt"
 
 # load autbuild provided shell functions and variables
 set +x

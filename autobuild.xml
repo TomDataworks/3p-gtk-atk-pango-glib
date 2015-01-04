@@ -5,6 +5,8 @@
     <map>
       <key>expat</key>
       <map>
+        <key>copyright</key>
+        <string>Copyright (c) 1998, 1999, 2000 Thai Open Source Software Center Ltd and Clark Cooper - Copyright (c) 2001, 2002, 2003, 2004, 2005, 2006 Expat maintainers.</string>
         <key>description</key>
         <string>Expat is an XML parser library written in C</string>
         <key>license</key>
@@ -20,9 +22,11 @@
             <key>archive</key>
             <map>
               <key>hash</key>
-              <string>d92b89d9c8eb9c57346f9896712c1e27</string>
+              <string>13c66126ef85daf9fc145eabde6426a7</string>
+              <key>hash_algorithm</key>
+              <string>md5</string>
               <key>url</key>
-              <string>http://depot.alchemyviewer.org/pub/linux/lib/expat-2.1.0-linux64-20141210.tar.bz2</string>
+              <string>http://depot.alchemyviewer.org/pub/linux64/lib/expat-2.1.0-linux64-201501030119.tar.bz2</string>
             </map>
             <key>name</key>
             <string>linux64</string>
@@ -33,8 +37,12 @@
       </map>
       <key>fontconfig</key>
       <map>
+        <key>copyright</key>
+        <string>Copyright (C) 2000,2001,2002,2003,2004,2006,2007 Keith Packard, 2005 Patrick Lam, 2009 Roozbeh Pournader, 2008,2009 Red Hat, Inc., 2008 Danilo Šegan, 2012 Google, Inc.</string>
+        <key>description</key>
+        <string>Fontconfig is a library for configuring and customizing font access.</string>
         <key>license</key>
-        <string>mit</string>
+        <string>bsd</string>
         <key>license_file</key>
         <string>LICENSES/fontconfig.txt</string>
         <key>name</key>
@@ -46,19 +54,27 @@
             <key>archive</key>
             <map>
               <key>hash</key>
-              <string>138a6c4dbe0f9fa3042ee3726741ca31</string>
+              <string>8535ea199a354c9611db6ecf2a959270</string>
+              <key>hash_algorithm</key>
+              <string>md5</string>
               <key>url</key>
-              <string>http://depot.alchemyviewer.org/pub/linux/lib/fontconfig-2.11.0-linux64-20141211.tar.bz2</string>
+              <string>http://depot.alchemyviewer.org/pub/linux64/lib/fontconfig-2.11.0-linux64-201501030510.tar.bz2</string>
             </map>
             <key>name</key>
             <string>linux64</string>
           </map>
         </map>
+        <key>version</key>
+        <string>2.11.0</string>
       </map>
       <key>freetype</key>
       <map>
+        <key>copyright</key>
+        <string>Copyright 2006-2014 by David Turner, Robert Wilhelm, and Werner Lemberg.</string>
+        <key>description</key>
+        <string>Font rendering library</string>
         <key>license</key>
-        <string>freetype</string>
+        <string>FreeType</string>
         <key>license_file</key>
         <string>LICENSES/freetype.txt</string>
         <key>name</key>
@@ -70,19 +86,23 @@
             <key>archive</key>
             <map>
               <key>hash</key>
-              <string>b20abbb02c6d3ee40678858445cbf07c</string>
+              <string>73a1563b512eee0795c66e202845f39b</string>
+              <key>hash_algorithm</key>
+              <string>md5</string>
               <key>url</key>
-              <string>http://depot.alchemyviewer.org/pub/linux/lib/freetype-2.5.3-linux64-20141210.tar.bz2</string>
+              <string>http://depot.alchemyviewer.org/pub/linux64/lib/freetype-2.5.5-linux64-201501030502.tar.bz2</string>
             </map>
             <key>name</key>
             <string>linux64</string>
           </map>
         </map>
+        <key>version</key>
+        <string>2.5.5</string>
       </map>
       <key>icu4c</key>
       <map>
         <key>copyright</key>
-        <string>Copyright (c) 1995-2011 International Business Machines Corporation and others &lt;http://source.icu-project.org&gt;</string>
+        <string>Copyright (c) 1995-2014 International Business Machines Corporation and others</string>
         <key>description</key>
         <string>ICU is a mature, widely used set of C/C++ and Java libraries providing Unicode and Globalization support for software applications. ICU is widely portable and gives applications the same results on all platforms and between C/C++ and Java software.</string>
         <key>license</key>
@@ -98,9 +118,11 @@
             <key>archive</key>
             <map>
               <key>hash</key>
-              <string>2ac556e0b6a66f784a916b2992d625e5</string>
+              <string>cbc8c61a37825a160f3df6226f86fe80</string>
+              <key>hash_algorithm</key>
+              <string>md5</string>
               <key>url</key>
-              <string>http://depot.alchemyviewer.org/pub/linux/lib/icu4c-54.1-linux64-20141209.tar.bz2</string>
+              <string>http://depot.alchemyviewer.org/pub/linux64/lib/icu4c-54.1-linux64-201501030432.tar.bz2</string>
             </map>
             <key>name</key>
             <string>linux64</string>
@@ -112,7 +134,7 @@
       <key>libpng</key>
       <map>
         <key>copyright</key>
-        <string>Copyright (c) 2004, 2006-2013 Glenn Randers-Pehrson</string>
+        <string>Copyright (c) 2004, 2006-2014 Glenn Randers-Pehrson</string>
         <key>description</key>
         <string>PNG Reference library</string>
         <key>license</key>
@@ -128,25 +150,31 @@
             <key>archive</key>
             <map>
               <key>hash</key>
-              <string>3d977b7ae82b72da5eb315ea01a415e2</string>
+              <string>d48ea3669683e0bc7abf5ed6bcad8db5</string>
+              <key>hash_algorithm</key>
+              <string>md5</string>
               <key>url</key>
-              <string>http://depot.alchemyviewer.org/pub/linux/lib/libpng-1.6.13-linux64-20141213.tar.bz2</string>
+              <string>http://depot.alchemyviewer.org/pub/linux64/lib/libpng-1.6.15-linux64-201501030340.tar.bz2</string>
             </map>
             <key>name</key>
             <string>linux64</string>
           </map>
         </map>
         <key>version</key>
-        <string>1.6.13</string>
+        <string>1.6.15</string>
       </map>
       <key>libxml2</key>
       <map>
+        <key>copyright</key>
+        <string>Copyright (C) 1998-2012 Daniel Veillard.  All Rights Reserved.</string>
+        <key>description</key>
+        <string>Libxml2 is the XML C parser and toolkit developed for the Gnome project.</string>
         <key>license</key>
-        <string>mit</string>
+        <string>MIT</string>
         <key>license_file</key>
         <string>LICENSES/libxml2.txt</string>
         <key>name</key>
-        <string>libxml</string>
+        <string>libxml2</string>
         <key>platforms</key>
         <map>
           <key>linux64</key>
@@ -154,17 +182,25 @@
             <key>archive</key>
             <map>
               <key>hash</key>
-              <string>b3f8ec9c4cb67cea292d035febd34e41</string>
+              <string>36f7e30c25ff6ffc2da092dbf17cc1eb</string>
+              <key>hash_algorithm</key>
+              <string>md5</string>
               <key>url</key>
-              <string>http://depot.alchemyviewer.org/pub/linux/lib/libxml2-2.9.2-linux64-20141210.tar.bz2</string>
+              <string>http://depot.alchemyviewer.org/pub/linux64/lib/libxml2-2.9.2-linux64-201501031010.tar.bz2</string>
             </map>
             <key>name</key>
             <string>linux64</string>
           </map>
         </map>
+        <key>version</key>
+        <string>2.9.2</string>
       </map>
       <key>zlib</key>
       <map>
+        <key>copyright</key>
+        <string>Copyright (C) 1995-2013 Jean-loup Gailly and Mark Adler</string>
+        <key>description</key>
+        <string>Zlib Data Compression Library</string>
         <key>license</key>
         <string>zlib</string>
         <key>license_file</key>
@@ -178,18 +214,24 @@
             <key>archive</key>
             <map>
               <key>hash</key>
-              <string>23967544a78df78fcf3a69a30fee33a8</string>
+              <string>7e02ce63286a14c28e410fd399e7a748</string>
+              <key>hash_algorithm</key>
+              <string>md5</string>
               <key>url</key>
-              <string>http://depot.alchemyviewer.org/pub/linux/lib/zlib-1.2.8-linux64-20141209.tar.bz2</string>
+              <string>http://depot.alchemyviewer.org/pub/linux64/lib/zlib-1.2.8-linux64-201501030147.tar.bz2</string>
             </map>
             <key>name</key>
             <string>linux64</string>
           </map>
         </map>
+        <key>version</key>
+        <string>1.2.8</string>
       </map>
     </map>
     <key>package_description</key>
     <map>
+      <key>copyright</key>
+      <string>Copyright various(See license file)</string>
       <key>description</key>
       <string>gtk-atk-pango-glib</string>
       <key>license</key>
@@ -208,20 +250,20 @@
           <map>
             <key>Release</key>
             <map>
-              <key>configure</key>
-              <map>
-                <key>arguments</key>
-                <array>
-                  <string>../configure-cmd.sh</string>
-                </array>
-                <key>command</key>
-                <string>bash</string>
-              </map>
               <key>build</key>
               <map>
                 <key>arguments</key>
                 <array>
                   <string>../build-cmd.sh</string>
+                </array>
+                <key>command</key>
+                <string>bash</string>
+              </map>
+              <key>configure</key>
+              <map>
+                <key>arguments</key>
+                <array>
+                  <string>../configure-cmd.sh</string>
                 </array>
                 <key>command</key>
                 <string>bash</string>
@@ -263,12 +305,12 @@
           <string>linux64</string>
         </map>
       </map>
-      <key>version</key>
-      <string>0.0.1</string>
+      <key>version_file</key>
+      <string>VERSION.txt</string>
     </map>
     <key>type</key>
     <string>autobuild</string>
     <key>version</key>
-    <string>1.2</string>
+    <string>1.3</string>
   </map>
 </llsd>
