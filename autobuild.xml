@@ -22,11 +22,11 @@
             <key>archive</key>
             <map>
               <key>hash</key>
-              <string>13c66126ef85daf9fc145eabde6426a7</string>
+              <string>735951f1e0a8788da1ffdab40826a7e3</string>
               <key>hash_algorithm</key>
               <string>md5</string>
               <key>url</key>
-              <string>http://depot.alchemyviewer.org/pub/linux64/lib/expat-2.1.0-linux64-201501030119.tar.bz2</string>
+              <string>http://depot.alchemyviewer.org/pub/linux64/lib/expat-2.1.0-linux64-201504091059.tar.bz2</string>
             </map>
             <key>name</key>
             <string>linux64</string>
@@ -54,11 +54,11 @@
             <key>archive</key>
             <map>
               <key>hash</key>
-              <string>8535ea199a354c9611db6ecf2a959270</string>
+              <string>da4382f428a6bf9cdca5ce543e707bf9</string>
               <key>hash_algorithm</key>
               <string>md5</string>
               <key>url</key>
-              <string>http://depot.alchemyviewer.org/pub/linux64/lib/fontconfig-2.11.0-linux64-201501030510.tar.bz2</string>
+              <string>http://depot.alchemyviewer.org/pub/linux64/lib/fontconfig-2.11.0-linux64-201504181619.tar.bz2</string>
             </map>
             <key>name</key>
             <string>linux64</string>
@@ -86,11 +86,11 @@
             <key>archive</key>
             <map>
               <key>hash</key>
-              <string>73a1563b512eee0795c66e202845f39b</string>
+              <string>4ba4b7e6efc1a267299aa2e03d02e13c</string>
               <key>hash_algorithm</key>
               <string>md5</string>
               <key>url</key>
-              <string>http://depot.alchemyviewer.org/pub/linux64/lib/freetype-2.5.5-linux64-201501030502.tar.bz2</string>
+              <string>http://depot.alchemyviewer.org/pub/linux64/lib/freetype-2.5.5-linux64-201504181357.tar.bz2</string>
             </map>
             <key>name</key>
             <string>linux64</string>
@@ -118,18 +118,18 @@
             <key>archive</key>
             <map>
               <key>hash</key>
-              <string>cbc8c61a37825a160f3df6226f86fe80</string>
+              <string>696792f0dd90999a9e00a34ed74c5d94</string>
               <key>hash_algorithm</key>
               <string>md5</string>
               <key>url</key>
-              <string>http://depot.alchemyviewer.org/pub/linux64/lib/icu4c-54.1-linux64-201501030432.tar.bz2</string>
+              <string>http://depot.alchemyviewer.org/pub/linux64/lib/icu4c-55.1-linux64-201504181428.tar.bz2</string>
             </map>
             <key>name</key>
             <string>linux64</string>
           </map>
         </map>
         <key>version</key>
-        <string>54.1</string>
+        <string>55.1</string>
       </map>
       <key>libpng</key>
       <map>
@@ -150,18 +150,18 @@
             <key>archive</key>
             <map>
               <key>hash</key>
-              <string>d48ea3669683e0bc7abf5ed6bcad8db5</string>
+              <string>cb3cadddd05abe013d10884566f09af2</string>
               <key>hash_algorithm</key>
               <string>md5</string>
               <key>url</key>
-              <string>http://depot.alchemyviewer.org/pub/linux64/lib/libpng-1.6.15-linux64-201501030340.tar.bz2</string>
+              <string>http://depot.alchemyviewer.org/pub/linux64/lib/libpng-1.6.17-linux64-201504181226.tar.bz2</string>
             </map>
             <key>name</key>
             <string>linux64</string>
           </map>
         </map>
         <key>version</key>
-        <string>1.6.15</string>
+        <string>1.6.17</string>
       </map>
       <key>libxml2</key>
       <map>
@@ -182,11 +182,11 @@
             <key>archive</key>
             <map>
               <key>hash</key>
-              <string>36f7e30c25ff6ffc2da092dbf17cc1eb</string>
+              <string>561ca77f59180d686ea496240964358a</string>
               <key>hash_algorithm</key>
               <string>md5</string>
               <key>url</key>
-              <string>http://depot.alchemyviewer.org/pub/linux64/lib/libxml2-2.9.2-linux64-201501031010.tar.bz2</string>
+              <string>http://depot.alchemyviewer.org/pub/linux64/lib/libxml2-2.9.2-linux64-201504181551.tar.bz2</string>
             </map>
             <key>name</key>
             <string>linux64</string>
@@ -214,11 +214,11 @@
             <key>archive</key>
             <map>
               <key>hash</key>
-              <string>7e02ce63286a14c28e410fd399e7a748</string>
+              <string>97410adf62be4d2a9d0012bcb5182dc6</string>
               <key>hash_algorithm</key>
               <string>md5</string>
               <key>url</key>
-              <string>http://depot.alchemyviewer.org/pub/linux64/lib/zlib-1.2.8-linux64-201501030147.tar.bz2</string>
+              <string>http://depot.alchemyviewer.org/pub/linux64/lib/zlib-1.2.8-linux64-201504091720.tar.bz2</string>
             </map>
             <key>name</key>
             <string>linux64</string>
