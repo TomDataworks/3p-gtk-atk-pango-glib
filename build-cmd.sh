@@ -49,12 +49,14 @@ set -x
 build_linux()
 {
          LIB_LINK_DIR="$stage/packages/lib/release"
-         MAKE_OPTIONS="-j 4"
+	 JOBS=`cat /proc/cpuinfo | grep processor | wc -l`
+         HARDENED="-fstack-protector-strong -D_FORTIFY_SOURCE=2"
+         MAKE_OPTIONS="-j$JOBS"
 
          export LD_RUN_PATH="$LIB_LINK_DIR:$LD_RUN_PATH"
          export LD_LIBRARY_PATH="$LIB_LINK_DIR:$LD_LIBRARY_PATH"
          export LDFLAGS="-m$1 -L$LIB_LINK_DIR"
-         export CFLAGS="-O3 -m$1 -I$stage/packages/include -I$stage/packages/include/libpng16"
+         export CFLAGS="-O3 -m$1 $HARDENED -I$stage/packages/include -I$stage/packages/include/libpng16"
          export CXXFLAGS="$CFLAGS -std=c++11"
          export PKG_CONFIG_PATH="$stage/packages/lib/release/pkgconfig"
 
