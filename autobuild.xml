@@ -54,11 +54,11 @@
             <key>archive</key>
             <map>
               <key>hash</key>
-              <string>f05f9e95973d8694fa0feefb923f2191</string>
+              <string>333c37f6ec2c1db04b2d73493b3a4c09</string>
               <key>hash_algorithm</key>
               <string>md5</string>
               <key>url</key>
-              <string>http://depot.alchemyviewer.org/pub/linux64/lib/fontconfig-2.11.0-linux64-201504230108.tar.bz2</string>
+              <string>http://depot.alchemyviewer.org/pub/linux64/lib/fontconfig-2.11.0-linux64-201507231614.tar.bz2</string>
             </map>
             <key>name</key>
             <string>linux64</string>
@@ -70,7 +70,7 @@
       <key>freetype</key>
       <map>
         <key>copyright</key>
-        <string>Copyright 2006-2014 by David Turner, Robert Wilhelm, and Werner Lemberg.</string>
+        <string>Copyright 2006-2015 by David Turner, Robert Wilhelm, and Werner Lemberg.</string>
         <key>description</key>
         <string>Font rendering library</string>
         <key>license</key>
@@ -86,50 +86,18 @@
             <key>archive</key>
             <map>
               <key>hash</key>
-              <string>01ec991d548bfc599a26538f91cdf475</string>
+              <string>f0588eb6aba810febd3ad48e6a259436</string>
               <key>hash_algorithm</key>
               <string>md5</string>
               <key>url</key>
-              <string>http://depot.alchemyviewer.org/pub/linux64/lib/freetype-2.5.5-linux64-201504230101.tar.bz2</string>
+              <string>http://depot.alchemyviewer.org/pub/linux64/lib/freetype-2.6.0-linux64-201507231602.tar.bz2</string>
             </map>
             <key>name</key>
             <string>linux64</string>
           </map>
         </map>
         <key>version</key>
-        <string>2.5.5</string>
-      </map>
-      <key>icu4c</key>
-      <map>
-        <key>copyright</key>
-        <string>Copyright (c) 1995-2014 International Business Machines Corporation and others</string>
-        <key>description</key>
-        <string>ICU is a mature, widely used set of C/C++ and Java libraries providing Unicode and Globalization support for software applications. ICU is widely portable and gives applications the same results on all platforms and between C/C++ and Java software.</string>
-        <key>license</key>
-        <string>ICU, permissive non-copyleft free software license</string>
-        <key>license_file</key>
-        <string>LICENSES/icu.txt</string>
-        <key>name</key>
-        <string>icu4c</string>
-        <key>platforms</key>
-        <map>
-          <key>linux64</key>
-          <map>
-            <key>archive</key>
-            <map>
-              <key>hash</key>
-              <string>493621562e5963e5f2f9378acebb6572</string>
-              <key>hash_algorithm</key>
-              <string>md5</string>
-              <key>url</key>
-              <string>http://depot.alchemyviewer.org/pub/linux64/lib/icu4c-55.1-linux64-201504222239.tar.bz2</string>
-            </map>
-            <key>name</key>
-            <string>linux64</string>
-          </map>
-        </map>
-        <key>version</key>
-        <string>55.1</string>
+        <string>2.6.0</string>
       </map>
       <key>libpng</key>
       <map>
@@ -182,11 +150,11 @@
             <key>archive</key>
             <map>
               <key>hash</key>
-              <string>2b5734e69de4451e0dd6fc6ce882d0e2</string>
+              <string>bcfb3196df9b18aaf4f25ae40c8eda69</string>
               <key>hash_algorithm</key>
               <string>md5</string>
               <key>url</key>
-              <string>http://depot.alchemyviewer.org/pub/linux64/lib/libxml2-2.9.2-linux64-201504230046.tar.bz2</string>
+              <string>http://depot.alchemyviewer.org/pub/linux64/lib/libxml2-2.9.2-linux64-201507231608.tar.bz2</string>
             </map>
             <key>name</key>
             <string>linux64</string>
