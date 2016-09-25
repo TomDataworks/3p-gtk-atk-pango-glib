@@ -1,20 +1,20 @@
 #!/bin/bash
 
-GLIB_VERSION="2.36.4"
+GLIB_VERSION="2.48.0"
 GLIB_SOURCE_DIR="glib-$GLIB_VERSION"
-ATK_VERSION="2.8.0"
+ATK_VERSION="2.18.0"
 ATK_SOURCE_DIR="atk-$ATK_VERSION"
-PIXMAN_VERSION="0.30.2"
+PIXMAN_VERSION="0.32.8"
 PIXMAN_SOURCE_DIR="pixman-$PIXMAN_VERSION"
-CAIRO_VERSION="1.12.14"
+CAIRO_VERSION="1.14.6"
 CAIRO_SOURCE_DIR="cairo-$CAIRO_VERSION"
-PANGO_VERSION="1.34.1"
-HARFBUZZ_VERSION="0.9.20"
+HARFBUZZ_VERSION="1.0.1"
 HARFBUZZ_SOURCE_DIR="harfbuzz-$HARFBUZZ_VERSION"
+PANGO_VERSION="1.38.1"
 PANGO_SOURCE_DIR="pango-$PANGO_VERSION"
-GDK_PIXBUF_VERSION="2.28.2"
+GDK_PIXBUF_VERSION="2.32.2"
 GDK_PIXBUF_SOURCE_DIR="gdk-pixbuf-$GDK_PIXBUF_VERSION"
-GTK_VERSION="2.24.22"
+GTK_VERSION="2.24.30"
 GTK_SOURCE_DIR="gtk+-$GTK_VERSION"
 
 TOP="$(dirname "$0")"
@@ -25,7 +25,7 @@ if [ -d "$GLIB_SOURCE_DIR" ]; then
    echo "$GLIB_SOURCE_DIR is present"
 else
    echo "$GLIB_SOURCE_DIR not present, downloading"
-   wget http://ftp.acc.umu.se/pub/GNOME/sources/glib/2.36/glib-$GLIB_VERSION.tar.xz
+   wget http://ftp.acc.umu.se/pub/GNOME/sources/glib/2.48/glib-$GLIB_VERSION.tar.xz
    tar -xvf glib-$GLIB_VERSION.tar.xz
 fi
 
@@ -33,7 +33,7 @@ if [ -d "$ATK_SOURCE_DIR" ]; then
    echo "$ATK_SOURCE_DIR is present"
 else
    echo "$ATK_SOURCE_DIR not present, downloading"
-   wget http://ftp.gnome.org/pub/GNOME/sources/atk/2.8/atk-$ATK_VERSION.tar.xz
+   wget http://ftp.gnome.org/pub/GNOME/sources/atk/2.18/atk-$ATK_VERSION.tar.xz
    tar -xvf atk-$ATK_VERSION.tar.xz
 fi
 
@@ -65,7 +65,7 @@ if [ -d "$PANGO_SOURCE_DIR" ]; then
    echo "$PANGO_SOURCE_DIR is present"
 else
    echo "$PANGO_SOURCE_DIR not present, downloading"
-   wget http://ftp.gnome.org/pub/gnome/sources/pango/1.34/pango-$PANGO_VERSION.tar.xz
+   wget http://ftp.gnome.org/pub/gnome/sources/pango/1.38/pango-$PANGO_VERSION.tar.xz
    tar -xvf pango-$PANGO_VERSION.tar.xz
 fi
 
@@ -73,7 +73,7 @@ if [ -d "$GDK_PIXBUF_SOURCE_DIR" ]; then
    echo "$GDK_PIXBUF_SOURCE_DIR is present"
 else
    echo "$GDK_PIXBUF_SOURCE_DIR not present, downloading"
-   wget http://ftp.gnome.org/pub/gnome/sources/gdk-pixbuf/2.28/gdk-pixbuf-$GDK_PIXBUF_VERSION.tar.xz
+   wget http://ftp.gnome.org/pub/gnome/sources/gdk-pixbuf/2.32/gdk-pixbuf-$GDK_PIXBUF_VERSION.tar.xz
    tar -xvf gdk-pixbuf-$GDK_PIXBUF_VERSION.tar.xz
 fi
 

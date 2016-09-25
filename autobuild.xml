@@ -6,7 +6,7 @@
       <key>expat</key>
       <map>
         <key>copyright</key>
-        <string>Copyright (c) 1998, 1999, 2000 Thai Open Source Software Center Ltd and Clark Cooper - Copyright (c) 2001, 2002, 2003, 2004, 2005, 2006 Expat maintainers.</string>
+        <string>Copyright (c) 1998-2000 Thai Open Source Software Center Ltd and Clark Cooper - Copyright (c) 2001-2016 Expat maintainers</string>
         <key>description</key>
         <string>Expat is an XML parser library written in C</string>
         <key>license</key>
@@ -22,18 +22,18 @@
             <key>archive</key>
             <map>
               <key>hash</key>
-              <string>3ed12f7d7b1a3bda07a3c6d8227a3bf2</string>
+              <string>ff3ecb893d879a380408db963aa0afea</string>
               <key>hash_algorithm</key>
               <string>md5</string>
               <key>url</key>
-              <string>http://depot.alchemyviewer.org/pub/linux64/lib-trusty/expat-2.1.1-linux64-201603232308.tar.bz2</string>
+              <string>http://depot.alchemyviewer.org/pub/linux64/lib-xenial/expat-2.2.0-linux64-201609241339.tar.bz2</string>
             </map>
             <key>name</key>
             <string>linux64</string>
           </map>
         </map>
         <key>version</key>
-        <string>2.1.1</string>
+        <string>2.2.0</string>
       </map>
       <key>fontconfig</key>
       <map>
@@ -54,18 +54,18 @@
             <key>archive</key>
             <map>
               <key>hash</key>
-              <string>25726244f5bcd05f412514b030098c3c</string>
+              <string>47fe27b1ca4ce70dafba85185562199e</string>
               <key>hash_algorithm</key>
               <string>md5</string>
               <key>url</key>
-              <string>http://depot.alchemyviewer.org/pub/linux64/lib-trusty/fontconfig-2.11.0-linux64-201603241804.tar.bz2</string>
+              <string>http://depot.alchemyviewer.org/pub/linux64/lib-xenial/fontconfig-2.12.1-linux64-201609251356.tar.bz2</string>
             </map>
             <key>name</key>
             <string>linux64</string>
           </map>
         </map>
         <key>version</key>
-        <string>2.11.0</string>
+        <string>2.12.1</string>
       </map>
       <key>freetype</key>
       <map>
@@ -86,23 +86,23 @@
             <key>archive</key>
             <map>
               <key>hash</key>
-              <string>b10ba0775b9f1033daf580a2cb55789d</string>
+              <string>70573b084a880ec7f6fb7cbfa20404a6</string>
               <key>hash_algorithm</key>
               <string>md5</string>
               <key>url</key>
-              <string>http://depot.alchemyviewer.org/pub/linux64/lib-trusty/freetype-2.6.3-linux64-201603241755.tar.bz2</string>
+              <string>http://depot.alchemyviewer.org/pub/linux64/lib-xenial/freetype-2.7.0-linux64-201609250521.tar.bz2</string>
             </map>
             <key>name</key>
             <string>linux64</string>
           </map>
         </map>
         <key>version</key>
-        <string>2.6.3</string>
+        <string>2.7.0</string>
       </map>
       <key>libpng</key>
       <map>
         <key>copyright</key>
-        <string>Copyright (c) 2004, 2006-2016 Glenn Randers-Pehrson</string>
+        <string>Copyright (c) 2000-2002, 2004, 2006-2016 Glenn Randers-Pehrson</string>
         <key>description</key>
         <string>PNG Reference library</string>
         <key>license</key>
@@ -118,18 +118,18 @@
             <key>archive</key>
             <map>
               <key>hash</key>
-              <string>cd64cda7107b967279d5af03b0d46a8f</string>
+              <string>d9cbaf3f5a3cc819d757f321db620c56</string>
               <key>hash_algorithm</key>
               <string>md5</string>
               <key>url</key>
-              <string>http://depot.alchemyviewer.org/pub/linux64/lib-trusty/libpng-1.6.21-linux64-201603240933.tar.bz2</string>
+              <string>http://depot.alchemyviewer.org/pub/linux64/lib-xenial/libpng-1.6.25-linux64-201609250045.tar.bz2</string>
             </map>
             <key>name</key>
             <string>linux64</string>
           </map>
         </map>
         <key>version</key>
-        <string>1.6.21</string>
+        <string>1.6.25</string>
       </map>
       <key>libxml2</key>
       <map>
@@ -150,18 +150,18 @@
             <key>archive</key>
             <map>
               <key>hash</key>
-              <string>61351b10787b06045a70c905a58ca2f6</string>
+              <string>a9f4b1abb5895f2016c0dc8ba588895e</string>
               <key>hash_algorithm</key>
               <string>md5</string>
               <key>url</key>
-              <string>http://depot.alchemyviewer.org/pub/linux64/lib-trusty/libxml2-2.9.3-linux64-201603241216.tar.bz2</string>
+              <string>http://depot.alchemyviewer.org/pub/linux64/lib-xenial/libxml2-2.9.4-linux64-201609250412.tar.bz2</string>
             </map>
             <key>name</key>
             <string>linux64</string>
           </map>
         </map>
         <key>version</key>
-        <string>2.9.3</string>
+        <string>2.9.4</string>
       </map>
       <key>zlib</key>
       <map>
@@ -182,11 +182,11 @@
             <key>archive</key>
             <map>
               <key>hash</key>
-              <string>1eaee9888043648d5f09716b771dcb4b</string>
+              <string>9eb17b1c699c7de25f013b22c14583e3</string>
               <key>hash_algorithm</key>
               <string>md5</string>
               <key>url</key>
-              <string>http://depot.alchemyviewer.org/pub/linux64/lib-trusty/zlib-1.2.8-linux64-201603240746.tar.bz2</string>
+              <string>http://depot.alchemyviewer.org/pub/linux64/lib-xenial/zlib-1.2.8-linux64-201609240212.tar.bz2</string>
             </map>
             <key>name</key>
             <string>linux64</string>
