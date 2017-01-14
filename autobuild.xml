@@ -31,6 +31,20 @@
             <key>name</key>
             <string>linux64</string>
           </map>
+          <key>linux</key>
+          <map>
+            <key>archive</key>
+            <map>
+              <key>hash</key>
+              <string>158cc3f97432d3fc2e8d88a61ca19eae</string>
+              <key>hash_algorithm</key>
+              <string>md5</string>
+              <key>url</key>
+              <string>http://dwaggy.tk/singularity/expat-2.2.0-linux-201609111705.tar.bz2</string>
+            </map>
+            <key>name</key>
+            <string>linux</string>
+          </map>
         </map>
         <key>version</key>
         <string>2.1.1</string>
@@ -62,6 +76,20 @@
             </map>
             <key>name</key>
             <string>linux64</string>
+          </map>
+          <key>linux</key>
+          <map>
+            <key>archive</key>
+            <map>
+              <key>hash</key>
+              <string>4fbbccd96c702ffad52d985bd408cc99</string>
+              <key>hash_algorithm</key>
+              <string>md5</string>
+              <key>url</key>
+              <string>http://dwaggy.tk/singularity/fontconfig-2.11.0-linux-201609111801.tar.bz2</string>
+            </map>
+            <key>name</key>
+            <string>linux</string>
           </map>
         </map>
         <key>version</key>
@@ -95,6 +123,20 @@
             <key>name</key>
             <string>linux64</string>
           </map>
+          <key>linux</key>
+          <map>
+            <key>archive</key>
+            <map>
+              <key>hash</key>
+              <string>ee0c9720e3c7dd26476d700dcfb25e2f</string>
+              <key>hash_algorithm</key>
+              <string>md5</string>
+              <key>url</key>
+              <string>http://dwaggy.tk/singularity/freetype-2.6.3-linux-201609111744.tar.bz2</string>
+            </map>
+            <key>name</key>
+            <string>linux</string>
+          </map>
         </map>
         <key>version</key>
         <string>2.6.3</string>
@@ -126,6 +168,20 @@
             </map>
             <key>name</key>
             <string>linux64</string>
+          </map>
+          <key>linux</key>
+          <map>
+            <key>archive</key>
+            <map>
+              <key>hash</key>
+              <string>5864e1e47b3a7c63214d64a9d9458dea</string>
+              <key>hash_algorithm</key>
+              <string>md5</string>
+              <key>url</key>
+              <string>http://dwaggy.tk/singularity/libpng-1.6.24-linux-201609111711.tar.bz2</string>
+            </map>
+            <key>name</key>
+            <string>linux</string>
           </map>
         </map>
         <key>version</key>
@@ -159,6 +215,20 @@
             <key>name</key>
             <string>linux64</string>
           </map>
+          <key>linux</key>
+          <map>
+            <key>archive</key>
+            <map>
+              <key>hash</key>
+              <string>7ad59c7c0451170cd49a4cc01064071f</string>
+              <key>hash_algorithm</key>
+              <string>md5</string>
+              <key>url</key>
+              <string>http://dwaggy.tk/singularity/libxml2-2.9.4-linux-201609111728.tar.bz2</string>
+            </map>
+            <key>name</key>
+            <string>linux</string>
+          </map>
         </map>
         <key>version</key>
         <string>2.9.3</string>
@@ -190,6 +260,20 @@
             </map>
             <key>name</key>
             <string>linux64</string>
+          </map>
+          <key>linux</key>
+          <map>
+            <key>archive</key>
+            <map>
+              <key>hash</key>
+              <string>873be966974a0873c31f6e51b231774e</string>
+              <key>hash_algorithm</key>
+              <string>md5</string>
+              <key>url</key>
+              <string>http://dwaggy.tk/singularity/zlib-1.2.8-linux-201609111523.tar.bz2</string>
+            </map>
+            <key>name</key>
+            <string>linux</string>
           </map>
         </map>
         <key>version</key>
@@ -267,10 +351,40 @@
           <key>manifest</key>
           <array>
             <string>lib/release/*.so*</string>
+            <string>lib/release/pkgconfig/*.pc</string>
             <string>include/</string>
           </array>
           <key>name</key>
           <string>linux64</string>
+        </map>
+        <key>linux</key>
+        <map>
+          <key>build_directory</key>
+          <string>stage</string>
+          <key>configurations</key>
+          <map>
+            <key>Release</key>
+            <map>
+              <key>build</key>
+              <map>
+              </map>
+              <key>default</key>
+              <string>True</string>
+              <key>name</key>
+              <string>Release</string>
+            </map>
+          </map>
+          <key>manifest</key>
+          <array>
+            <string>lib/release/*.so*</string>
+            <string>lib/release/*.a</string>
+            <string>lib/release/pkgconfig/*.pc</string>
+            <string>lib/release/gdk-pixbuf-2.0/2.10.0/loaders/*.so</string>
+            <string>lib/release/pango/1.8.0/modules/*.so</string>
+            <string>include/</string>
+          </array>
+          <key>name</key>
+          <string>linux</string>
         </map>
       </map>
       <key>version_file</key>
