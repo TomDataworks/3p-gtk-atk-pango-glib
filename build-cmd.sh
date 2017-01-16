@@ -27,7 +27,8 @@ GDK_PIXBUF_VERSION="2.32.2"
 GDK_PIXBUF_SOURCE_DIR="gdk-pixbuf-$GDK_PIXBUF_VERSION"
 GTK_VERSION="2.24.30"
 GTK_SOURCE_DIR="gtk+-$GTK_VERSION"
-
+FFI_VERSION="3.2.1"
+FFI_SOURCE_DIR="libffi-$FFI_VERSION"
 
 if [ -z "$AUTOBUILD" ] ; then 
     fail
@@ -68,6 +69,20 @@ build_linux()
          fix_pkgconfig_prefix "$stage/packages"
          rm -f $stage/packages/lib/release/*.la
 
+         pushd "$TOP/$FFI_SOURCE_DIR"
+         ./configure --prefix="\${AUTOBUILD_PACKAGES_DIR}" \
+                     --libdir="\${prefix}/lib/release" \
+                     --includedir="\${prefix}/include" \
+                     --enable-static \
+                     --disable-shared
+
+         make $MAKE_OPTIONS
+         make install DESTDIR="$stage"
+         make install DESTDIR="$stage/packages"
+         make distclean
+         fix_pkgconfig_prefix "$stage/packages"
+         popd
+
          pushd "$TOP/$GLIB_SOURCE_DIR"
          ./configure --prefix="\${AUTOBUILD_PACKAGES_DIR}"    \
                      --libdir="\${prefix}/lib/release" \
@@ -103,11 +118,14 @@ build_linux()
          popd
  
          pushd "$TOP/$PIXMAN_SOURCE_DIR"
-         ./configure --prefix="\${AUTOBUILD_PACKAGES_DIR}"    \
+         PNG_LIBS="`pkg-config --static --libs libpng16`" ./configure --prefix="\${AUTOBUILD_PACKAGES_DIR}"    \
                      --libdir="\${prefix}/lib/release" \
                      --includedir="\${prefix}/include" \
                      --disable-rpath \
-                     --disable-gtk
+                     --disable-gtk \
+                     --enable-static \
+                     --disable-shared \
+                     --enable-static-testprogs
  
          make $MAKE_OPTIONS
          make install DESTDIR="$stage"
@@ -172,6 +190,7 @@ build_linux()
          rm -f $stage/packages/lib/release/*.la
          popd
 
+         export PKG_CONFIG_PATH="$stage/packages/lib/release/pkgconfig:/usr/lib/i386-linux-gnu/pkgconfig"
          pushd "$TOP/$GDK_PIXBUF_SOURCE_DIR"
          ./configure --prefix="\${AUTOBUILD_PACKAGES_DIR}"    \
                      --libdir="\${prefix}/lib/release" \
@@ -191,6 +210,7 @@ build_linux()
          rm -f $stage/packages/lib/release/*.la
          popd
 
+         export PKG_CONFIG_PATH="$stage/packages/lib/release/pkgconfig"
          export GDK_PIXBUF_MODULE_FILE="$stage/packages/lib/release/gdk-pixbuf-2.0/2.10.0/loaders.cache"
          export GDK_PIXBUF_MODULEDIR="$stage/packages/lib/release/gdk-pixbuf-2.0/2.10.0/loaders"
          PATH="$stage/packages/bin:$PATH" gdk-pixbuf-query-loaders > $stage/packages/lib/release/gdk-pixbuf-2.0/2.10.0/loaders.cache
